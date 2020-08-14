@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.2, pytest-6.0.1, py-1.9.0, pluggy-0.13.1 -- /home/iago/codenation/data-science-3/venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/iago/codenation/data-science-3
+collecting ... collected 4 items
+
+test_submit.py::test_q1 PASSED                                           [ 25%]
+test_submit.py::test_q2 PASSED                                           [ 50%]
+test_submit.py::test_q3 PASSED                                           [ 75%]
+test_submit.py::test_q4 PASSED                                           [100%]
+
+=============================== warnings summary ===============================
+venv/lib/python3.8/site-packages/_pytest/junitxml.py:446
+  /home/iago/codenation/data-science-3/venv/lib/python3.8/site-packages/_pytest/junitxml.py:446: PytestDeprecationWarning: The 'junit_family' default value will change to 'xunit2' in pytest 6.0. See:
+    https://docs.pytest.org/en/stable/deprecations.html#junit-family-default-value-change-to-xunit2
+  for more information.
+    _issue_warning_captured(deprecated.JUNIT_XML_DEFAULT_FAMILY, config.hook, 2)
+
+venv/lib/python3.8/site-packages/patsy/constraint.py:13
+  /home/iago/codenation/data-science-3/venv/lib/python3.8/site-packages/patsy/constraint.py:13: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+    from collections import Mapping
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+----- generated xml file: /home/iago/codenation/data-science-3/output.xml ------
+======================== 4 passed, 2 warnings in 5.84s =========================
